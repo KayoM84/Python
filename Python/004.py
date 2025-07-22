@@ -1,0 +1,7 @@
+f = float(input('Digite o valor: '))
+s = str(input('Digite o segundo Valor: '))
+b = bool(input('Digite o terceiro Valor: '))
+print(f, s, b)
+print(type(f))
+print(type(s))
+print(type(b))
