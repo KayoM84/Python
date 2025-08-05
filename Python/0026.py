@@ -1,0 +1,6 @@
+infor = str(input('Digite: ')).strip()
+infor = infor.lower()
+n2 = infor.count('a')
+print('Voce digitou a letra A {} vezes'.format(n2))
+print('A letra "A" Aparece na posição inicial {}'.format(infor.lower().find('a')+1))
+print('A letra "A" Aparece na posição final {}'.format(infor.lower().rfind('a')+1))
